@@ -1,0 +1,77 @@
+ul {
+    display: inline;
+}
+
+div {
+    display: inline-block;
+    width: 100%;
+}
+
+.section1 {
+    /* display: inline-block; */
+    /* width: 100%; */
+    background-color: rgb(245, 240, 230);
+    scroll-margin-top: 40px;
+}
+
+.section2 {
+    /* display: inline-block; */
+    /* width: 100%; */
+    background-image: url("./imgs/bg-orbs-1.jpg");
+    color: rgb(255, 255, 255);
+    scroll-margin-top: 40px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    max-width: 400px;
+    font-size: 28px;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar ul a:hover {
+    background-color: #182b49;
+    color: rgb(255, 255, 255);
+}
+
+.section3{
+    width: 100%;
+    background-color: rgb(245, 240, 230);
+    scroll-margin-top: 40px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.one {
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.two {
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.three {
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.four {
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+}
