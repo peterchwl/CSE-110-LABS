@@ -8,15 +8,11 @@ div {
 }
 
 .section1 {
-    /* display: inline-block; */
-    /* width: 100%; */
     background-color: rgb(245, 240, 230);
     scroll-margin-top: 40px;
 }
 
 .section2 {
-    /* display: inline-block; */
-    /* width: 100%; */
     background-image: url("./imgs/bg-orbs-1.jpg");
     color: rgb(255, 255, 255);
     scroll-margin-top: 40px;
@@ -75,3 +71,29 @@ div {
     max-height: 500px;
     overflow: scroll;
 }
+
+.images{
+    max-width: 100%;
+}
+
+.title{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar ul a{
+        display: none;
+    }
+    .title{
+        max-width: 75%;
+    }
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
